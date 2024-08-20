@@ -1,0 +1,19 @@
+.booking1{
+    grid-area: header;
+}
+.booking2{
+    grid-area: menu;
+    margin: 10px 300px;
+}
+.booking3{
+    grid-area: main;
+
+}
+.container-booking{
+    display: grid;
+    grid-template-areas: 'menu menu menu header header header'
+    'main main main main main main ';
+}
+input:placeholder{
+    align-items: right;
+}
